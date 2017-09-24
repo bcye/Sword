@@ -44,7 +44,7 @@ bot.connect()
 ```
 
 # Running the bot
-Build the libraries with `swift build`, then type `.build/debug/yourswiftexecutablehere` (when using the new toolchain: `.build/x86_64-apple-macosx10.10/debug/yourswiftexecutablehere`)
+Build the libraries with `swift build`, then type `.build/debug/yourswiftexecutablehere` (when using the new toolchain: `.build/x86_64-apple-macosx10.10/debug/yourswiftexecutablehere` then type `swift run`)
 
 # Running the bot in Xcode
 To run the bot in Xcode, you first have to compile the libraries with `swift build`. Then to build the xcode project, type `swift package generate-xcodeproj`. Finally, type `open yourswiftexecutablehere.xcodeproj`, look at the top and follow the steps below
